@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class week2_1
+{
+	public static void main (String [] argv)
+	{
+	int number,num1=2;	
+
+	System.out.print("請輸入任一數");
+	Scanner ab = new Scanner(System.in);
+	number = ab.nextInt();
+	System.out.println(number%num1==0?"odd":"even");
+	}
+}
