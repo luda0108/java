@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class A1113305_0224_2
+{
+	public static void main(String[] argv)
+	{
+		System.out.println("Please input a temperature");
+		float temp;
+
+		Scanner ab = new Scanner(System.in);
+		temp = ab.nextFloat();
+		System.out.println("The current temperature is "+ temp + "℃");
+		
+
+		temp = (temp*9) / 5 + 32;
+		System.out.println("The current temperature convert to Fahrenheit is "+ temp + "℉");
+	}
+}
+
+		
